@@ -1,0 +1,109 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 800px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+
+
+h1 {
+  font-family: 'Roboto-bold', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Roboto-bold', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  text-align: center;
+}
+
+#btn-ar24 {
+  background-color: yellowgreen;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(103, 138, 34, 0.3);
+}
+
+ #btn-ar24:hover {
+  background-color: aliceblue;
+  box-shadow: 2px 2px 4px aliceblue;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+ul li {
+  display: inline;
+}
+
+ul li:hover {
+  display: inline;
+  /* border-radius: 15px; */
+}
+
+#follow-crap i {
+  font-size: 40px;
+  text-align: center;
+  color: grey;
+}
+
+/* #follow-crap i:hover {
+  border-color: black;
+} */
+
+.main {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgb(182, 181, 181);
+}
+
+.card {
+  /* margin: auto; */
+  /* width: 100vw; */
+  /* height: 150px; */
+  /* background-color: blueviolet;
+  border-radius: 30px; */
+}
+
+#photo-chien {
+  /* width: 50%; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 700px;
+  border-radius: 150px;
+  object-fit: contain;
+
+}
